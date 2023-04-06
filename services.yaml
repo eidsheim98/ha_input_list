@@ -1,0 +1,56 @@
+set_value:
+  name: Set
+  description: Set the value of an input text entity.
+  target:
+    entity:
+      domain: input_list
+  fields:
+    value:
+      name: Value
+      description: The target value the entity should be set to.
+      required: true
+      example: This is an example list
+      selector:
+        text:
+
+increment:
+  name: Increment
+  description: Set the value of an input text entity.
+  target:
+    entity:
+      domain: input_list
+  fields:
+    listkey:
+      name: Key
+      description: The key to set the list to
+      required: true
+      example: example_key
+      selector:
+        text:
+    listvalue:
+      name: Value
+      description: The target value the entity should be set to.
+      required: true
+      example: This is an example list
+      selector:
+        text:
+
+decrement:
+  name: Decrement
+  description: Set the value of an input text entity.
+  target:
+    entity:
+      domain: input_list
+  fields:
+    listkey:
+      name: Key
+      description: Remove list object based on this key
+      required: true
+      example: example_key
+      selector:
+        text:
+
+
+reload:
+  name: Reload
+  description: Reload the input_list configuration.

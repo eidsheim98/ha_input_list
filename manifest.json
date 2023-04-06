@@ -1,0 +1,8 @@
+{
+  "domain": "input_list",
+  "name": "Input List",
+  "codeowners": ["@eidsheim98"],
+  "documentation": "https://www.home-assistant.io/integrations/input_text",
+  "quality_scale": "internal",
+  "version": "0.0.1"
+}
